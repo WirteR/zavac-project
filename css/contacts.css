@@ -1,0 +1,28 @@
+#googleMap {
+    width:100%;
+    height:440px;
+    background: white;
+    padding: 10px;
+    margin-top: 35px;
+}
+
+.contacts--items {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contacts--item {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    max-width: 200px;
+}
+
+.contacts--item h1 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
