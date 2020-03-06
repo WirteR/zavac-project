@@ -1,0 +1,116 @@
+.categories {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    width: 100%;
+}
+
+.categories > div {
+    height: 232px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px 0;
+    align-items: center;
+}
+
+.categories h3 {
+    margin-bottom: 35px;
+    color: #0400B4; 
+}
+
+#flats {
+    background: url(./img/flat.png) 50% no-repeat;
+    background-size: 100% auto;
+}
+
+#offices {
+    background: url(./img/offices.png) 50% no-repeat;
+    background-size: 100% auto;
+}
+
+#areas {
+    background: url(./img/area.png) 50% no-repeat;
+    background-size: 100% auto;
+}
+
+#houses {
+    background: url(./img/houses.png) 50% no-repeat;
+    background-size: 100% auto;
+}
+
+.type-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.type-links a{
+    padding: 12px 32px;
+    background: #0400B4;
+    color: white;
+    font-size: 17px;
+    line-height: 19px;
+    font-weight: 500;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+.type-links a:hover {
+    background: white;
+    color: #0400B4;
+    border: 1px solid #ccc;
+}
+
+.advantages {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantages img {
+    height: 40px;
+}
+
+.advantages > p {
+    font-size: 17px;
+    line-height: 19px;
+    padding: 6px 14px;
+    border-bottom: 1px solid black;
+    margin: 10px 0 0;
+    
+}
+
+.advantages--list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.advantage {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+}
+
+.advantage > img {
+    height: 75px;
+}
+
+.advantage p {
+    text-align: center;
+    margin: 0;
+}
+
+.advantage h2 {
+    margin: 0px;
+    margin: 16px 0;
+}
