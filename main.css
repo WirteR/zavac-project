@@ -114,3 +114,61 @@
     margin: 0px;
     margin: 16px 0;
 }
+
+.phone {
+    position: fixed;
+    bottom: 100px;
+    right: 75px;
+    height: 64px;
+    width: 64px;
+    border-radius: 50px;
+    background: url(./img/phone.png), #00AFF2;
+    background-size: 100%;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.call-me__active {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    background: rgba(0,0,0, 0.75);
+    padding: 6px 20px;
+    pointer-events: none;
+}
+
+.call-me__active form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.call-me__active form > * {
+    width: 31%;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    font-weight: 17px;
+    pointer-events: auto;
+}
+
+.call-me__active input {
+    border-radius: 50px;
+    background: inherit;
+    border: 1px solid white;
+    padding: 6px 8px;
+}
+
+.call-me__active input[type="submit"] {
+    width: 27%;
+    background: #00AFF2;
+}
+
+.call-me__active input[type="text"] {
+    width: 33%;
+    font-size: 13px;
+}
+
+.call-me__active p {
+    margin: 0;
+}
