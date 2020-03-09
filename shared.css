@@ -210,3 +210,16 @@ main h1 {
     font-size: 36px;
     line-height: 44px;
 }
+
+.breadcrumb {
+    width: 100%;
+    background: #C4C4C4;
+    padding: 9px 224px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #0400B4;
+}

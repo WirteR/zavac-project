@@ -8,17 +8,18 @@
     <link type="text/css" rel="stylesheet" href="../css/item-page.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&display=swap&subset=cyrillic" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <section class="main-nav">
             <div class="header-border">
                 <ul class="main-nav--items">
-                    <li class="active-nav-item"><a href="../index.html">головна</a></li>
-                    <li><a href="">продаж</a></li>
-                    <li><a href="">аренда</a></li>
-                    <li><a href="">про нас</a></li>
-                    <li><a href="">контакти</a></li>
-                    <li><a href="">новини</a></li>
+                    <li><a href="../index.html">головна</a></li>
+                    <li  class="active-nav-item"><a href="./items.html?operation=sell">продаж</a></li>
+                    <li  class="active-nav-item"><a href="./items.html?operation=order">аренда</a></li>
+                    <li><a href="./about.html">про нас</a></li>
+                    <li><a href="./contacts.html">контакти</a></li>
+                    <li><a href="./news.html">новини</a></li>
                 </ul>
             </div>
         </section>
@@ -26,7 +27,11 @@
             <img src="../img/logo.png" alt="logo">
         </section>
     </header>
-    
+    <div class="breadcrumb">
+        <a href="../index.html">Головна</a>/
+        <a href="./items.html">Об'єкти</a>
+        <span>/Титульна назва новини</span>
+    </div>
     <main>
         <article class="main-content">
             <div class="item-title">
@@ -100,12 +105,12 @@
 
         <article class="contacts-content">
             <h1>Напишіть нам</h1>
-            <div class="send-text">
+            <form class="send-text">
                 <input type="text" name="name" id="name" placeholder="І'мя">
                 <input type="tel" name="phone" id="phone" placeholder="+38(___)__-_____">
                 <textarea name="message" id="message"></textarea>
                 <input type="submit" value="Надіслати">
-            </div>
+            </form>
             <h1>Агент</h1>
             <div class="agent">
                 <img src="../img/agent-item.png" alt=""agent>
@@ -145,12 +150,12 @@
                     <div class="footer-links">
                         <p>Навігація</p>
                         <div class="footer-links-table">
-                            <a href="" class="link active-footer-link">ГОЛОВНА</a>
-                            <a href="" class="link">ПРО НАС</a>
-                            <a href="" class="link">ПРОДАЖ</a>
-                            <a href="" class="link">КОНТАКТИ</a>
-                            <a href="" class="link">АРЕНДА</a>
-                            <a href="" class="link">НОВИНИ</a>
+                            <a href="../index.html" class="link">ГОЛОВНА</a>
+                            <a href="./about.html" class="link">ПРО НАС</a>
+                            <a href="./items.html?operation=sell" class="link active-footer-link">ПРОДАЖ</a>
+                            <a href="./contacts.html" class="link">КОНТАКТИ</a>
+                            <a href="./items.html?operation=order" class="link active-footer-link">АРЕНДА</a>
+                            <a href="./news.html" class="link">НОВИНИ</a>
                         </div>
                     </div>
                     <div class="socials">

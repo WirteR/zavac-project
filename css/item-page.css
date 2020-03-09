@@ -208,7 +208,7 @@ main {
     margin-bottom: 8px;
 }
 
-.agent {
+main .agent {
     margin: 0;
     background: white;
     display: flex;
@@ -219,15 +219,15 @@ main {
     font-size: 17px;
 }
 
-.agent img {
+main .agent img {
     height: 150px;
     margin-bottom: 10px;
 }
 
-.agent-name {
+main  .agent-name {
     color: #06a7ea;
 }
 
-.agent-phone {
+main .agent-phone {
     color: #010057;   
 }
