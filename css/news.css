@@ -49,3 +49,21 @@
     line-height: 25px;
     color: #23527c;
 }
+
+.more-info {
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    background: #010051;
+    padding: 5px 15px;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 300ms;
+    border: 1px solid rgb(82, 81, 81);
+}
+
+.more-info:hover,
+.more-info:active {
+    color: #010051;
+    background: white;
+}

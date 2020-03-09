@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Автозапчастини</title>
     <link type="text/css" rel="stylesheet" href="../shared.css" />
-    <link type="text/css" rel="stylesheet" href="../css/news.css" />
+    <link type="text/css" rel="stylesheet" href="../css/item-page.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&display=swap&subset=cyrillic" rel="stylesheet">
 </head>
 <body>
@@ -28,47 +28,60 @@
     </header>
     
     <main>
-        <h1>Новини</h1>
-        <article class="news-items">
-            <div class="news--item">
-                <img src="../img/news-img1.png" alt="img">
-                <div class="news-info">
-                    <p class="date">1 Серпня, 2001</p>
-                    <p class="news-title">Перелік документів, необхідних для укладення договору купівлі-продажу об’єкту 
-                        нерухомості (квартири, будинку, земельної ділянки, нежитлового приміщення)</p>
-                    <p class="news-text">Перелік документів,  необхідних для укладення договору купівлі-продажу 
-                        об’єкту нерухомості (квартири, будинку, земельної ділянки, нежитлового приміщення) 
-                        Для продавця: Правовстановлюючі документи: - Свідоцтво...
-                    </p>
-                    <div><a href="./news-item.html" class="more-info">Детальніше</a></div>
+        <article class="main-content">
+            <div class="item-title">
+                <h1>Продається 1-км квартира в центрі міста</h1>
+                <div><span class="price">100000$</span></div>
+            </div>
+            <div class="gallery">
+                <div style="background: url(../img/item-1.png);" class="item-image">
+                    <div>
+                        <div class="top">Рекомендовані</div>
+                        <div class="top">Терміново</div>
+                    </div>
+                </div>
+                <div class="owl-stage">
+                    <div class="owl-item active-img"><div style="background: url(../img/item-1.png);" alt="img" class=""></div></div>
+                    <div class="owl-item"><div style="background: url(../img/item-2.png);" alt="img"></div></div>
+                    <div class="owl-item"><div style="background: url(../img/item-3.png);" alt="img"></div></div>
+                    <div class="owl-item"><div style="background: url(../img/item-1.png);" alt="img"></div></div>
+                    <div class="owl-item"><div style="background: url(../img/item-1.png);" alt="img"></div></div>
+                    <div class="owl-item"><div style="background: url(../img/item-1.png);" alt="img"></div></div>
                 </div>
             </div>
-            <div class="news--item">
-                <img src="../img/news-img2.png" alt="img">
-                <div class="news-info">
-                    <p class="date">1 Серпня, 2001</p>
-                    <p class="news-title">ТИПОВІ ПЛАНУВАННЯ КВАРТИР У ЧЕРНІВЦЯХ</p>
-                    <p class="news-text">«Хрущовки» –  цегляні чотири-п'ятиповерхові будинки, масово споруджувані в 
-                        СССР під час правління Микити Сергійовича Хрущова та отримали у народі його...
-                    </p>
-                    <div><a href="./news-item.html" class="more-info">Детальніше</a></div>
+            <div class="item-properties">
+                <div class="property">
+                    <span>Тип</span>
+                    <span>Квартира/Вторинне житло</span>
+                </div>
+                <div class="property">
+                    <span>Район</span>
+                    <span>Комарова</span>
+                </div>
+                <div class="property">
+                    <span>Тип стін</span>
+                    <span>Цегла</span>
+                </div>
+                <div class="property">
+                    <span>Рубрика</span>
+                    <span>Продаж</span>
+                </div>
+                <div class="property">
+                    <span>Площа</span>
+                    <span>86/-/8m²</span>
+                </div>
+                <div class="property">
+                    <span>Опалення</span>
+                    <span>Квартира/Вторинне житло</span>
+                </div>
+                <div class="property">
+                    <span>Поверх</span>
+                    <span>3</span>
                 </div>
             </div>
-            <div class="news--item">
-                <img src="../img/news-img3.png" alt="img">
-                <div class="news-info">
-                    <p class="date">1 Серпня, 2001</p>
-                    <p class="news-title">Скільки коштує орендувати Житло у чернівцях сьогодні?</p>
-                    <p class="news-text">У більшості випадків попит оренди квартир чи будинків припадає на 
-                        одно- та дво-кімнатні, та житло невеликої площі. Статистика наступна: Близько 70% 
-                        орендарів - знімають одно- та двокімнатні об'єкти нерухомості. І лише 30%, обирають 
-                        три- і більше-кімнатні квартири.
-                    </p>
-                    <div><a href="./news-item.html" class="more-info">Детальніше</a></div>
-                </div>
-            </div>
-            
         </article>
+
+        <article class="contacts-content"></article>
     </main>
     <footer>
         <section class="footer">
@@ -124,5 +137,5 @@
     </footer>
 </body>
 <script src="index.js"></script>
-<script src="../js/news.js"></script>
+<script src="../js/item.js"></script>
 </html>
