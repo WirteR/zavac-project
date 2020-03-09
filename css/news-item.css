@@ -1,0 +1,32 @@
+main {
+    align-items: flex-start;
+    font-weight: 300;
+}
+
+main:first-child(p) {
+    text-indent: 15px;
+}
+
+.imp {
+    font-style: italic;
+    font-weight: 600;
+    color: #000080;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 40px;
+    margin: 0;
+    color:#02344a;
+}
+
+p {
+    margin: 0;
+    margin-top: 15px;
+}
+
+ul {
+    margin: 0;
+    margin-top: 8px
+}
