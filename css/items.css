@@ -13,7 +13,7 @@
     max-width: 800px;
 }
 
-.sorting {
+#sorting {
     width: 100%;
     margin-top: 60px;
     display: flex;
@@ -24,7 +24,7 @@
     box-shadow: 0 4px 4px rgba(0,0,0,0.25);
 }
 
-.sorting select {
+#sorting select {
     margin: 0 16px;
     width: 184px;
     font-size: 18px;
@@ -93,15 +93,15 @@
     align-items: flex-start;
 }
 
-.filters {
+#filters {
     display: flex;
     flex-direction: column;
     padding: 24px;
     background: #1AAAE8;
 }
 
-.filters input,
-.filters select {
+#filters input,
+#filters select {
     width: 196px;
     border: 1px solid black;
     margin-bottom: 16px;
@@ -112,7 +112,7 @@
     padding: 6px 10px;
 }
 
-.filters input[type="submit"] {
+#filters input[type="submit"] {
     color: white;
     border: 1px solid black;
     background: #0400B4;

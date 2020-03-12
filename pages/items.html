@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Автозапчастини</title>
+    <title>Об'єкти | Агенство нерухомості центральне</title>
     <link type="text/css" rel="stylesheet" href="../shared.css" />
     <link type="text/css" rel="stylesheet" href="../css/items.css" />
+    <script src="../js/jquery-3.4.1.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&display=swap&subset=cyrillic" rel="stylesheet">
 </head>
 
@@ -24,7 +25,7 @@
             </div>
         </section>
         <section class="logo">
-            <img src="../img/logo.png" alt="logo">
+            <a href="../index.html"><img src="../img/logo.png" alt="logo"></a>
         </section>
     </header>
     <div class="breadcrumb">
@@ -35,19 +36,19 @@
         <h1>ОБ'ЄКТИ</h1>
         <article class="main-items">
             <div class="items-container">
-                <div class="sorting">
+                <form id="sorting">
                     <select name="order-by" id="order-by">
-                        <option selected>впорядкувати</option>
+                        <option value="default" selected>впорядкувати</option>
                         <option value="grow">за зростанням</option>
                         <option value="low">за спаданням</option>
                     </select>
                     <select name="sort-by" id="sort-by">
-                        <option selected>сортувати по</option>
+                        <option value="default" selected>сортувати по</option>
                         <option value="price">ціні</option>
                         <option value="name">назві</option>
                         <option value="date">даті</option>
                     </select>
-                </div>
+                </form>
                 <div class="item">
                     <div class="photo" style="background: url(../img/item-1.png) 50% 50% no-repeat;background-size: auto 100%;"></div>
                     <div class="item-info">
@@ -87,27 +88,27 @@
             </div>
             <div class="filter-container">
                 <h3>Пошук об'єкту</h3>
-                <form class="filters">
+                <form id="filters">
                     <select name="obj-type" id="obj-type">
-                        <option selected>тип</option>
-                        <option value="">Будинок</option>
-                        <option value="">Земельна ділянка</option>
-                        <option value="">Квартира</option>
-                        <option value="">Кімната</option>
-                        <option value="">Комерційна нерухомість</option>
-                        <option value="">Новобудови</option>
-                        <option value="">Офіс</option>
-                        <option value="">Частина будинку</option>
+                        <option selected value="default">тип</option>
+                        <option value="house">Будинок</option>
+                        <option value="area">Земельна ділянка</option>
+                        <option value="flat">Квартира</option>
+                        <option value="room">Кімната</option>
+                        <option value="commercial">Комерційна нерухомість</option>
+                        <option value="newHouse">Новобудови</option>
+                        <option value="office">Офіс</option>
+                        <option value="housePart">Частина будинку</option>
                     </select>
                     <select name="operation" id="operation">
-                        <option value="">Всі рубрики</option>
+                        <option value="default">Всі рубрики</option>
                         <option selected value="sell">продаж</option>
                         <option value="order">Оренда</option>
                     </select>
                     <input type="number" name="min-price" id="min-price" placeholder="ціна від">
                     <input type="number" name="max-price" id="max-price" placeholder="ціна до">
                     <select name="room-value" id="room-value">
-                        <option>К-сть кімнат</option>
+                        <option value="default">К-сть кімнат</option>
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -115,7 +116,7 @@
                         <option>5</option>
                         <option>>5</option>
                     </select>
-                    <input type="submit" value="Пошук">
+                    <input type="submit" value="Пошук" />
                 </form>
             </div>
         </article>
@@ -162,9 +163,9 @@
                     <div class="socials">
                         <p>Соціальні мережі</p>
                         <div class="socials-links">
-                            <a href=""><img src="../img/telegram.png" alt="link"></a>
-                            <a href=""><img src="../img/insta.png" alt="link"></a>
-                            <a href=""><img src="../img/facebook.png" alt="link"></a>
+                            <a href="https://telegram.org/"><img src="../img/telegram.png" alt="link"></a>
+                            <a href="https://www.instagram.com/"><img src="../img/insta.png" alt="link"></a>
+                            <a href="https://www.facebook.com/"><img src="../img/facebook.png" alt="link"></a>
                         </div>
                     </div>
                 </div>
